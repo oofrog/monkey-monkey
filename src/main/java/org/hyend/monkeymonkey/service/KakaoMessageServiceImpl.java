@@ -29,6 +29,9 @@ public class KakaoMessageServiceImpl implements KakaoMessageService {
     @Value("${kakao.client-id:}")
     private String clientId;
 
+    @Value("${kakao.redirect-uri:http://localhost:8080/oauth}")
+    private String redirectUri;
+
     @Override
     public void sendToMe(String message) {
         KakaoToken token = loadToken();
@@ -123,6 +126,7 @@ public class KakaoMessageServiceImpl implements KakaoMessageService {
         params.add("grant_type", "refresh_token");
         params.add("client_id", clientId);
         params.add("refresh_token", token.getRefreshToken());
+        params.add("redirect_uri", redirectUri);
 
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(params, headers);
 

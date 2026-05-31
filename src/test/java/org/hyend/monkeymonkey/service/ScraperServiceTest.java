@@ -15,15 +15,15 @@ class ScraperServiceTest {
     void shouldExtractOnlyLunchInfoFromHtml() {
         // given
         String mockHtml = """
-                <div class="hyu-list-body">
-                    <div class="hyu-list-body-item">
-                        <h4>중식</h4>
+                <div class="hyu-list-container-dailyView">
+                    <h3 class="hyu-element">중식</h3>
+                    <div class="hyu-list-container">
                         <div class="menu-detail">
                             <p>김치찌개, 불고기</p>
                         </div>
                     </div>
-                    <div class="hyu-list-body-item">
-                        <h4>석식</h4>
+                    <h3 class="hyu-element">석식</h3>
+                    <div class="hyu-list-container">
                         <div class="menu-detail">
                             <p>된장찌개, 제육볶음</p>
                         </div>
