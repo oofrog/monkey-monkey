@@ -3,7 +3,7 @@
 > 매일 아침, 한양대 학식 메뉴를 크롤링해 카카오톡으로 자동 배달해주는 Spring Boot 기반 알림 봇.
 > "매일 식단을 확인하고 캡처해 단톡방에 올리던 귀찮음"에서 시작한 6주 스터디 프로젝트입니다.
 
-<img width="360" height="778" alt="BC3D3C3A-0B4E-407B-91F0-D8A73E5B9D94_4_5005_c" src="https://github.com/user-attachments/assets/a3e1ac1c-121c-4721-808e-7d8fe0d18a3a" />
+<img width="180" height="389" alt="BC3D3C3A-0B4E-407B-91F0-D8A73E5B9D94_4_5005_c" src="https://github.com/user-attachments/assets/a3e1ac1c-121c-4721-808e-7d8fe0d18a3a" />
 
 
 ---
